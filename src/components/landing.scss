@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+.landing{
+    height: 100vh;
+    background-image: url('../assets/images/bg-pattern-intro-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-size: 150%;
+    padding: 4rem 10rem;
+    border-bottom-left-radius: 6rem;
+    background-repeat: no-repeat;
+    background-color: hsl(353, 76%, 63%);
+}
+
+}
