@@ -1,0 +1,51 @@
+.features {
+    width: 100%;
+    position: relative;
+    padding: 15rem 10rem 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(0, 26%, 96%);
+    z-index: 2;
+  }
+  
+  .features .featuresLeft {
+    flex-basis: 50%;
+    position: relative;
+  }
+  
+  .features .featuresLeft .laptopDesktop {
+    width: 150%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -16rem;
+  }
+  
+  .features .featuresLeft .laptopMobile {
+    display: none;
+  }
+  
+  .features .featuresRight {
+    flex-basis: 40%;
+    position: relative;
+  }
+  
+  .features .featuresRight h4,
+  .features .featuresRight h5 {
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+  }
+  
+  .features .featuresRight p {
+    font-size: 0.95rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 3rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 2.1rem;
+  }
+  

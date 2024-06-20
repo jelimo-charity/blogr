@@ -36,7 +36,7 @@ const Landing = () => {
             <div className="rightLinks">
               <ul>
                 <li><a href="#">Login</a></li>
-                <li><a href="#">Signup</a></li>
+                <li className='signup'><a href="#">Signup</a></li>
               </ul>
             </div>
           </div>

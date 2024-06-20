@@ -1,0 +1,79 @@
+// future.scss
+
+.futureSection {
+    // background: url('../assets/images/your-background.svg') no-repeat center center fixed;
+    // background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+  
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+  
+    .futureDescription {
+      display: flex;
+      flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+      width: 100%;
+      max-width: 1200px;
+  
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+  
+      .leftColumn {
+        flex: 1;
+        padding: 1rem;
+  
+        h3 {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+  
+        p {
+          font-size: 1rem;
+          margin-bottom: 2rem;
+        }
+      }
+  
+      .rightColumn {
+        flex: 1;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        img {
+          max-width: 70%;
+          height: auto;
+          display: none;
+  
+          &.illDesktop {
+            display: none;
+            @media (min-width: 768px) {
+              display: block;
+            }
+          }
+  
+          &.illMobile {
+            display: block;
+            @media (min-width: 768px) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  

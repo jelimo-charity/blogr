@@ -1,0 +1,57 @@
+/** Services starts here **/
+
+.services {
+    width: 100%;
+    padding: 8rem 10rem;
+    position: relative;
+    background: hsl(237, 17%, 21%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+  }
+  
+  .services .servicesRight {
+    flex-basis: 50%;
+  }
+  
+  .services .servicesRight h3 {
+    font-size: 2.3rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+  }
+  
+  .services .servicesRight p {
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 1.9rem;
+  }
+  
+  .services .servicesLeft {
+    flex-basis: 40%;
+    position: relative;
+    background-image: url('../assets/images/illustration-phones.svg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .services .servicesLeft .phone {
+    position: absolute;
+    left: -5rem;
+    top: -16rem;
+    z-index: 3;
+  }
+  
+  .services .servicesLeft .circle-pattern {
+    position: absolute;
+    left: -30rem;
+    top: -25rem;
+    z-index: 1;
+    width: 200%;
+  }
+  
